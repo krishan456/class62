@@ -1,0 +1,18 @@
+body{
+    background-image: linear-gradient(to right top, #0ab720, #00c672, #00d1b1, #00d9e1, #00deff);
+    text-align: center;
+}
+#theCarousel img{
+    margin-top: 70px;
+}
+#theCarousel{
+    background-color: chartreuse;
+    height: 350px;
+}
+img:hover{
+    transform: scale(0.9)
+}
+
+img{
+   transition: transform 0.2s; 
+}
